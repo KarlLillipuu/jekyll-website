@@ -1,22 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>eroxeN</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="assets/css/style.css">
-</head>
+<head>{% include head.html %}</head>
 <body>
+	<h1 class="page-name">{{page.page-name}}</h1>
+	g
+	{% include nav.html %}
 
-	<nav>
-		<ul>
-			<li><a href="{{site.baseurl}}/index">Index</a></li>
-			<li><a href="{{site.baseurl}}/other">Other</a></li>
-		</ul>
-	</nav>
-
-	{{page.creator}}
-	{{content}}
+	<!--{{page.creator}}-->
 
 </body>
 </html>
