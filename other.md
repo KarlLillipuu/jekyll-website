@@ -2,4 +2,5 @@
 layout: default
 creator: Karl Robert Lillipuu
 ---
-<h1>Hello</h1>
+
+<h1>Other page</h1>
