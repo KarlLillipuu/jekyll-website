@@ -1,13 +1,13 @@
 ---
 layout: default
 creator: Karl Robert Lillipuu
-page-name: Discs
+page-name: Innova Discs
 ---
 
 <div class="flex-container">
 	{% for news in site.categories.innova %}
 	<div class="flex-item">
-		<img class="disc-img" src="{{ news.image }}" alt="Disc">
+		<img class="disc-img" src="../{{ news.image }}" alt="Disc">
 		<div class="disc-info">
 			<div class="name">{{ news.title }}</div>
 			<div class="numbers">{{ news.meta }}</div>
@@ -15,4 +15,3 @@ page-name: Discs
 	</div>
 	{% endfor %}
 </div>
-
